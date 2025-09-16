@@ -26,12 +26,11 @@ body{
 }
 .adiciona{
     margin-top: 5vh;
-    justify-self: center;
-    justify-items: center;
 }
 .adiciona > input{
     padding: 1vh;
     margin-bottom: 1vh;
+    width: 100%;
 }
 .adiciona > button{
     width: 100%;
@@ -47,7 +46,7 @@ body{
 }
 .ultragrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1vh;
     margin-top: 2vh;
 }
