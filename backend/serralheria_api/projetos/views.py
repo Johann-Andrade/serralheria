@@ -4,7 +4,6 @@ from django.shortcuts import render
 from rest_framework import generics
 from .models import Casa, Obra
 from .serializers import CasaSerializer, ObraSerializer
-
 class CasaList(generics.ListCreateAPIView):
     queryset = Casa.objects.all()
     serializer_class = CasaSerializer
